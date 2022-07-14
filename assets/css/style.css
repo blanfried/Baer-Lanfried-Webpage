@@ -69,7 +69,7 @@ a {
       position: relative;
   }
 
-  aside {
+  .aboutMe {
       padding: 1%;
       float: left;
       background-color: var(--tyrian-purple);
@@ -84,7 +84,7 @@ a {
 
   }
 
-  h2 {
+  .aboutMe h2 {
       font-size: 2.4vw;
       padding: 8px;
       background-color: var(--dark-orange);
@@ -98,7 +98,7 @@ a {
       margin-right: 25%;
   }
 
-  span {
+  .aboutMe h2 span {
       position:relative;
       top:1px;
       display:inline-block;
@@ -118,4 +118,45 @@ a {
 
   p {
       margin-top: 20px;
+  }
+
+  .myProjects {
+      padding: 5px;
+
+  }
+
+
+  .myProjects h2 {
+      font-size: 2.4vw;
+      padding: 2px;
+      background-color: var(--dark-orange);
+      border-width: 30px black;
+      color: var(--midnight-green-eagle-green);
+      border: 1px solid #CCC;
+      text-align: center;
+      border-radius: 10px;
+     
+      position: static;
+  }
+
+  #dMMP {
+      display: flex;
+      max-height: 2%;
+      max-width: 2%;
+  }
+
+
+
+
+  footer h2 {
+      font-size: 2.4vw;
+      padding: 2px;
+      background-color: var(--dark-orange);
+      border-width: 30px black;
+      color: var(--midnight-green-eagle-green);
+      border: 1px solid #CCC;
+      text-align: center;
+      border-radius: 10px;
+     
+      position: static;
   }
