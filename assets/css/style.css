@@ -1,4 +1,4 @@
-:root {
+  :root {
 --tyrian-purple: #5f0f40ff;
 --ruby-red: #9a031eff;
 --dark-orange: #fb8b24ff;
@@ -6,25 +6,25 @@
 --midnight-green-eagle-green: #0f4c5cff;
 }
 
-* {
+  * {
       box-sizing: border-box;
       padding: 0;
       margin: 0;
   }
 
-header {
+  header {
       font-family: fantasy;
       padding: 20px;
       color: rgb(255, 255, 255);
       background-color: var(--spanish-orange);
 }
 
-header h1 {
+  header h1 {
       font-size: 300%;
       display: inline-block;
 }
 
-header nav {
+  header nav {
       font-size: larger;
       padding-top: 40px;
       margin-right: 20px;
@@ -34,7 +34,7 @@ header nav {
       
 }
 
-nav ul li {
+  nav ul li {
       display: inline-block;
       margin-left: 25px;
   }
@@ -57,26 +57,31 @@ nav ul li {
   }
   
   #baerGardenParty {
-      display: inline-block;
-      max-height: 800px;
-      max-width: 50%;
+      display: flex;
+      max-height: 100%;
+      max-width: 49%;
       float: right;
+      margin-top: 1%;
+      margin-bottom: 1%;
   }
 
   aside {
       padding: 3px;
       float: left;
       background-color: var(--tyrian-purple);
-      margin-top: 10px;
-      display: flex;
-      flex-direction: column;
-      float: left;
+      margin-top: 1%;
+      display: block;
+      float: inline-start;
       border-radius: 10px;
-      margin-right: 50%;
+      margin-right: 10px;
+      max-height: 500px;
+      max-width: 50%;
+      justify-content: center;
 
   }
 
   h2 {
+      font-size: 210%;
       padding: 8px;
       background-color: var(--dark-orange);
       border-width: 30px black;
@@ -84,9 +89,9 @@ nav ul li {
       border: 1px solid #CCC;
       text-align: center;
       border-radius: 10px;
-      margin: 5px;
-      margin-left: 40%;
-      margin-right: 40%;
+      margin: 5%;
+      margin-left: 25%;
+      margin-right: 25%;
   }
 
   span {
@@ -96,15 +101,18 @@ nav ul li {
       border-bottom:1px solid #AAA;
   }
 
-  p {
-      margin-top: 10px;
-  }
-
   .aboutMeText {
-      margin: 10px;
-      font-size: medium;
+      margin: 5%;
+      margin-top: -3%;
+      font-size: 120%;
       color: wheat;
-      text-align: left;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      text-align: center;
   }
+
+  p {
+      margin-top: 20px;
+  }
+
