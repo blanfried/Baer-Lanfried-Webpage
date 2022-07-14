@@ -14,35 +14,38 @@
 
   header {
       font-family: fantasy;
-      padding: 20px;
+      padding: 1rem;
       color: rgb(255, 255, 255);
       background-color: var(--spanish-orange);
 }
 
   header h1 {
-      font-size: 300%;
+      font-size: 3.3vw;
       display: inline-block;
 }
 
   header nav {
-      font-size: larger;
-      padding-top: 40px;
-      margin-right: 20px;
+      font-size: 1.5vw;
+      padding: 0rem;
+      margin-top: 2rem;
+      margin-right: 1.5rem;
       float: right;
-      color: rgb(255, 255, 255);
       background-color: var(--spanish-orange);
-      
+}
+
+a {
+      color: rgb(255, 255, 255);
 }
 
   nav ul li {
       display: inline-block;
-      margin-left: 25px;
+      margin-left: 1rem;
   }
 
   hr { 
       display: block;
       border-style: inset;
-      border-width: 2px;
+      border-width: 2%;
       border-color: black;
     } 
 
@@ -58,30 +61,31 @@
   
   #baerGardenParty {
       display: flex;
-      max-height: 100%;
+      max-height: 50%;
       max-width: 49%;
       float: right;
       margin-top: 1%;
       margin-bottom: 1%;
+      position: relative;
   }
 
   aside {
-      padding: 3px;
+      padding: 1%;
       float: left;
       background-color: var(--tyrian-purple);
-      margin-top: 1%;
+      margin-top: 15%;
       display: block;
-      float: inline-start;
-      border-radius: 10px;
-      margin-right: 10px;
-      max-height: 500px;
+      border-radius: 3%;
+      margin-right: 1%;
+      max-height: 100%;
       max-width: 50%;
       justify-content: center;
+      position: relative;
 
   }
 
   h2 {
-      font-size: 210%;
+      font-size: 2.4vw;
       padding: 8px;
       background-color: var(--dark-orange);
       border-width: 30px black;
@@ -104,7 +108,7 @@
   .aboutMeText {
       margin: 5%;
       margin-top: -3%;
-      font-size: 120%;
+      font-size: 1.3vw;
       color: wheat;
       display: flex;
       flex-direction: column;
@@ -115,4 +119,3 @@
   p {
       margin-top: 20px;
   }
-
